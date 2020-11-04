@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my title</title>
+    <script type="text/javascript">
+        //document.write("<h1>hello shahana<h1>");
+        //document.write("<h2>how are you</h2>");
+        /* var num=16;
+        var name="kloudone";
+        var flag=true;
+        alert(num)
+        document.write(name)
+        var a=3;
+        var b=3;
+        var result=a+b;
+        document.write("<h1>Result is:"+result+"</h1")
+            var x=3;
+            if(x%2==0)
+            {
+                document.write("even number");
+            }
+            else{
+                document.write("odd number")
+            }
+            var x=4
+            if(x>0){
+                document.write("positive number");
+            }
+            else if(x==0){
+                document.write("number is zero");
+            }
+            else{
+                document.write("number is negative");
+            }
+            var day=8;
+            switch(day)
+            {
+                case 1:
+                    document.write("sunday");
+                    break;
+                case 2:
+                    document.write("monday");
+                    break;
+                case 3:
+                    document.write("tuesday");
+                    break;
+                case 4:
+                    document.write("wednesday");
+                    break;
+                case 5:
+                    document.write("thursday");
+                    break;
+                case 6:
+                    document.write("friday");
+                    break;
+                case 7:
+                    document.write("saturday");
+                    break;
+                default:
+                    document.write("value is not exit");
+                
+            }
+            var x=2;
+            for(;x<=10;x+=2)
+            {
+                document.write("<h1>"+(x)+"</h1>");
+            }
+            var x=1;
+            while(x<=10)
+            {
+                document.write("<h2>"+(x)+"</h2>");
+                x=x+1;
+  
+            }
+            function add2number(a,b)
+            {
+               
+                var total=a+b;
+                return total;
+               
+
+            }
+             var out=add2number(3,5);
+            document.write("<h2>the total is:"+out+"</h2>");
+            var car=["audi","bmw","swift"];
+            var arr1=new Array("apple","banana","papaya");
+            arr1.push("gavava","kalam")
+            arr1.pop("kalam")
+            for(var i=0;i<arr1.length;i++){
+            document.write("<h2>"+arr1[i]+"</h2>")
+            var car={
+                car_brand:"audi",
+                car_model:"model",
+                cae_price:3500,
+                
+                teslaAutoPilot:function(){
+                    document.write("<h2>this car has auto pilot</h2>");
+
+                }
+            }
+            document.write("<h2>"+car.car_model+car.car_price+"</h2>");
+            function Cars(brand,model,price)
+            {
+                this.brand=brand;
+                this.model=model;
+                this.price=price;
+
+                this.teslaAutoPilot=function(){
+                    document.write("<h2>this car has auto pilot</h2>");
+
+                }
+
+            }
+            var c1=new Cars("tesla","model 3",3500);
+            c1.teslaAutoPilot();
+            document.write("<h2>"+c1.model);
+            function buttonClick()
+            {
+                
+               var str= document.getElementById("heading2")
+                //.innerHTML="telsuhko learning";
+                .innerHTML="Hello Mohd Kalam How are you";
+                alert(str) }
+            
+                function fn1()
+                {
+                  var str = document.getElementById("text1").value;
+                  var str1= document.getElementById("text2").value;
+                  if(str==str1)
+                  {
+                    alert("User name and Passwor is same");
+                  }
+                  else{
+                      alert("user name and password is not same");
+                  }
+                 
+                }*/
+           </script>
+</head>
+<body>
+    <input id="radio" value="">
+    <input type="radio"  id="text2"placeholder="password">
+    <br>
+    <button onclick="fn1()" id="btn1" >click me</button>
+    
+</body>
+</html>
