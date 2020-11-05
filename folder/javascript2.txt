@@ -1,0 +1,201 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    //getElementbyClassName Method.
+       /* function fn1(){
+           // var tag=document.getElementsByTagName("p");
+            var element= document.getElementsByClassName("mypara");
+            for(var x=0;x<element.length;x++)
+            {
+                element[x].style.color="red";
+            }
+
+        }*/
+    //change image onmouseover and onmouseout event.
+     /*   function setNewImage()
+        {
+            document.getElementById("img").src="kalam_compress2.jpg";
+        }
+        function setOldImage()
+        {
+
+            document.getElementById("img").src="KALAM.jpeg"; 
+        }
+        
+
+
+
+
+    </script>
+
+</head>
+<body>
+    <p  id="p1" class="mypara">this is paragraph 1</p>
+    <p>this is paragraph 2</p>
+
+    <p class="mypara">this is paragraph 3</p>
+    <p>this is paragraph 4</p>
+    <p class="mypara">this is paragraph 5</p>
+    <a  class="mypara" href="#">this is anchor tag</a>
+    <br>
+    <button onclick="fn1()">click me</button> -->
+    <!-- <img id="img" onmouseover="setNewImage()" onmouseout="setOldImage()" src="KALAM.jpeg" width="300"/> -->
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+   /* function fn1(){
+        var username=document.getElementById("username");
+        var password=document.getElementById("pass");
+        if(username.value.trin()==""||password.value.trin()=="")
+        {
+            alert("please name and value in the box");
+            return false
+        }
+        else{
+            true;
+
+        }
+
+
+    }
+    function fn1()
+    {
+        var username=document.getElementById("username");
+        var password=document.getElementById("pass");
+        if(username.value.trim()=="")
+        {
+            alert("Blank user name");
+            return false;
+        }
+        else if(password.value.trim()=""){
+            alert("Blank Password");
+            return false;
+        }
+        else if(password.value.length<5)
+        {
+            alert("password too short");
+            return false;
+        }
+        else{
+            return true;
+
+        }
+
+
+    }
+    function fn1()
+    {
+        var username=document.getElementById("username").value;
+        var regx=/E00/;
+        if(regx.test(username))
+        {
+            alert("valid username");
+        }
+        else
+        {
+            alert("invalid username");
+            document.getElementById("lbluser").style.visibility="visible";
+        }
+    }
+    // validation of mobile number.
+    function fn1()
+    {
+        var text=document.getElementById("text").value;
+        var regx=/[7-9]\d{9}/;
+        if(regx.test(text))
+        {
+            document.getElementById("lbtext").innerHTML="valid";
+            document.getElementById("lbtext").style.visibility="visible";
+            document.getElementById("lbtext").style.color="green";
+             
+        }
+        else
+        {
+            document.getElementById("lbtext").innerHTML="invalid";
+            document.getElementById("lbtext").style.visibility="visible";
+            document.getElementById("lbtext").style.color="red";
+        }
+    }
+    //Email validation
+    function fn1()
+    {
+        var text=document.getElementById("text").value;
+        var regx=/^([a-zA-z0-9\.-]+)@([a-zA-z0-9-]+).([a-z]{2,20})$/;
+        if(regx.test(text))
+        {
+            document.getElementById("lbtext").innerHTML="valid";
+            document.getElementById("lbtext").style.visibility="visible";
+            document.getElementById("lbtext").style.color="green";
+             
+        }
+        else
+        {
+            document.getElementById("lbtext").innerHTML="invalid";
+            document.getElementById("lbtext").style.visibility="visible";
+            document.getElementById("lbtext").style.color="red";
+        }
+    }
+    function add()
+    {
+       var a=document.getElementById("text1").value;
+       var b=document.getElementById("text2").value;
+       document.getElementById("op").innerHTML="Result = "+(a+b);
+
+    }*/
+    //timing function 
+    var ID=0;
+    var second=0;
+    function printmsg()
+    {
+        document.getElementById("op").innerHTML=second+" second";
+        second++;
+    }
+    function start()
+    {
+       ID= window.setInterval(printmsg,1000);
+    }
+    function stop()
+    {
+        window.clearTimeout(ID);
+    }
+
+    
+
+    </script>
+</head>
+<body>
+    <!-- <form onsubmit="return fn1()" action="exp.html">
+        <input id="username" placeholder="username" type="text"/>
+        <br>
+        <br>
+        <input id="pass" placeholder="password" type="password"/>
+        <br><br>
+        <button  type="submit">submit</button>
+    </form> 
+    <form >
+        <input id="text1" placeholder="username" type="text"/><br>
+       <br>
+       <input id="text2" placeholder="user" type="text"/>
+       <br>
+       <br>
+        <button onclick="add()" type="button">submit</button>
+        <h2 id="op">Result =</h2>
+    </form>-->
+    <button onclick="start()" di="btnadd">Start</button><br>
+    <h2 id="op">Hi Mohd kalam</h2>
+    <button onclick="stop()" id="btnstop">Stop</button>
+
+</body>
+</html>
