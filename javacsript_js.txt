@@ -1,0 +1,105 @@
+1. Go through the full checkout process.
+ 2. Use getUserCredentials provided that returns the first name, last name and concats with email.  
+ 3. Write a function called getPreTaxTotal that take in our cartItems and returns the total without tax.
+ 4. Pass the preTaxTotal value to a getTaxedTotal function that returns the value with tax.
+ 5. Log each value from the 3 functions out. 
+*/
+
+function getUserCredentials(firstName, lastName, email) {
+    return `${firstName} ${lastName} | ${email}`
+}
+
+const userCredentials = getUserCredentials('Dylan', 'Israel', 'DylansEmail310@gmail.com');
+
+function getPreTaxTotal(cartItems) {
+    let total = 0;
+    
+    for(let cartItem of cartItems) {
+        total += cartItem.quantity * cartItem.price;
+    }
+    
+    return total;
+}
+
+const cartItems = [
+    { quantity: 1, price: 5 },
+    { quantity: 3, price: 4 },
+    { quantity: 10, price: 1}
+];
+
+const preTaxTotal = getPreTaxTotal(cartItems);
+
+function getTaxedTotal(preTaxTotal) {
+    return preTaxTotal *= 1.08;
+}
+
+const finalTaxedTotal = getTaxedTotal(preTaxTotal);
+
+console.log(userCredentials)
+console.log(preTaxTotal);
+console.log(finalTaxedTotal);
+
+//login form using java script
+
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    
+ </head>
+    <style type="text/css">
+        div{
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            margin: 0 auto;
+            padding: 120px;
+            box-sizing: border-box;
+        }
+    </style>
+  <body>
+    <center><h1>welcome to login page</h1></center>
+    <hr>
+
+    <div>
+        username:<br>
+        <input type="text" name="text" id="username">
+        <br><br>
+
+        password:<br>
+        <input type="password" name="text" id="password">
+        <br><br>
+
+        <button onclick="login()">Submit</button>
+    </div>
+
+    <script type="text/javascript">
+    function login(){
+        var name=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(name=="world" && password=="123")
+        {
+            alert("you have login");
+        }
+        else{
+            alert("you have not login");
+        }
+    }
+    </script>
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
