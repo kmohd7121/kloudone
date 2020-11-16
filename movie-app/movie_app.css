@@ -282,7 +282,7 @@ footer a:hover {
   #movies-searchable,#movies-container,.search-movie{
     /* float: left; */
     margin-right: 10rem;
-    display: inline-flexbox;
+    /* display: inline-flexbox; */
     justify-content: center;
     text-align: center;
 
