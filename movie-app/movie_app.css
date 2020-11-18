@@ -318,7 +318,7 @@ footer a:hover {
 
 .poster-card {
   width: 160px;
-  height: 440px;
+  height: 460px;
   background: #1b1b1b;
   margin: 10px 15px;
   border-radius: 4px;
@@ -330,7 +330,7 @@ footer a:hover {
 }
 
 .poster-card #img1 {
-  background: url(https://upload.wikimedia.org/wikipedia/en/3/3c/Poster_of_Mirzapur_2018.jpg);
+  background: url(https://upload.wikimedia.org/wikipedia/en/3/3c/Poster_of_Mirzapur_2018.jpg); */
   background-position: center;
   background-size: cover;
 }
@@ -401,7 +401,7 @@ footer a:hover {
   background-size: cover;
 }
 
-.poster-card #img6 {
+.poster-card #img13 {
   background: url(https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg);
   background-position: center;
   background-size: cover;
@@ -501,3 +501,189 @@ footer a:hover {
   background: #333333;
   color: #fff;
 }
+.get-imdb{
+
+  background-color:burlywood;
+  text-decoration: none;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.get1{
+  
+  background-color:;
+  width: 10rem;
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+  /* border-radius: .2rem; */
+  padding: 10px;
+}
+.btn5{
+
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  font-weight: 10px;
+  font-size: 18px;
+  border:none;
+  padding-top: 7px;
+  border-radius: .2rem;
+
+}
+
+/*birthday div*/
+.sub-heading h2{
+  color: white;
+  font-size: 24px;
+  margin: 4px 0 8px;
+  font-weight: normal;
+}
+.sub-heading p.subtitle{
+  color: white;
+  font-size: 18px;
+  margin: 4px 0 8px;
+  font-weight: normal;
+}
+.birthday-card .birthday-img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #1167b1;
+  margin: 0 auto;
+}
+/* .sub-heading .subtitle{
+  padding-left: 7rem;
+}
+.sub-heading h2{
+  padding-left: 7rem;
+} */
+.birthday-card p{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+.birthday-card #image1{
+  background: url(https://m.media-amazon.com/images/M/MV5BMTY5ODcxMDU4NV5BMl5BanBnXkFtZTcwMjAzNjQyNQ@@._V1_UX140_CR0,9,140,140_.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.birthday-card #image2 {
+  background: url(https://m.media-amazon.com/images/M/MV5BYmY2OGMzM2YtMDVlNi00NzdhLTkzNDMtZjA0M2I2YzNiNDIyXkEyXkFqcGdeQXVyNjc1OTk0NzA@._V1_UX140_CR0,0,140,140_.jpg);
+  background-position: center;
+  background-size: contain;
+}
+.birthday-card #image3 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMTcyNDA4Nzk3N15BMl5BanBnXkFtZTcwNDYzMjMxMw@@._V1_UX140_CR0,17,140,140_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.birthday-card #image4 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMTg2NzAzNzE5N15BMl5BanBnXkFtZTcwMjMyODM0MQ@@._V1_UX140_CR0,0,140,140_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.birthday-card #image5 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMjE2OTkyOTkzMl5BMl5BanBnXkFtZTcwODYxMTUwOA@@._V1_UX140_CR0,0,140,140_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.birthday-card #image6 {
+  background: url(https://m.media-amazon.com/images/M/MV5BODVkMGU3ZDgtYzJkYS00YTIyLThmYWQtZmY3NTk5ZTdlYjAzXkEyXkFqcGdeQXVyMjYwNjY4MTM@._V1_UX140_CR0,12,140,140_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.birthday-card {
+  width: 160px;
+  height: 200px;
+  background: #000;
+  margin: 10px 15px;
+  cursor: pointer;
+}
+/* birthday div end*/
+/* Recently viewed start */
+.top-picks {
+	margin-top: 20px;
+}
+.top-picks .heading {
+  padding: 2px 5px;
+  /* margin-left: 10rem; */
+  /* border-left: 4px solid yellow; */
+}
+
+.top-head h2 {
+	color: #fff;
+}
+
+.flexbox1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.poster1-card {
+  width: 160px;
+  height: 300px; 
+  background: #1b1b1b;
+  margin: 10px 15px;
+  border-radius: 4px;
+   
+}
+.movie-title a{
+  color: white;
+  text-decoration: none;
+}
+
+.poster1-card .image {
+  width: 100%;
+  height: 237px;
+}
+.poster1-card #img1 {
+  background: url(https://m.media-amazon.com/images/M/MV5BZDQ2NTdmNDgtMGIwMS00ODE2LTk5M2EtZGZhYzc4MWRlNTU3XkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_UX140_CR0,0,140,207_.jpg); 
+  background-position: center;
+  background-size: cover;
+}
+
+.poster1-card #img2 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMTY5ODcxMDU4NV5BMl5BanBnXkFtZTcwMjAzNjQyNQ@@._V1_UY207_CR2,0,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster1-card #img3 {
+  background: url(https://m.media-amazon.com/images/M/MV5BN2NlNGYwYTUtMTczMi00NGVjLTgwMzUtNjBkZjIyNDc2NjcxXkEyXkFqcGdeQXVyODQ5NDUwMDk@._V1_UX140_CR0,1,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster1-card #img4 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY1200_CR85,0,630,1200_AL_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster1-card #img5 {
+  background: url(https://m.media-amazon.com/images/M/MV5BZGJkMDRiOWUtZTMzZC00YzYzLWI1NDAtODc4ZGFiN2Q2MmJlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY207_CR13,0,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster1-card #img6 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMTI3MWZmMjgtYWNjNC00NTNhLWE5YjgtNTVkYWM5NjMwODZmXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_UY207_CR68,0,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* Recently viewed end */
