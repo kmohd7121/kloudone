@@ -245,21 +245,32 @@ footer a:hover {
 }
 .img2{
   width: 100%;
-  /*padding-left: 10rem; */
-  position: relative;
-  text-align: center;
+  display:flex;
   justify-content: center;
-  display: flex;
+  text-align: center;
+  position: relative; 
+
+ 
 
 }
 .search-movie{
   font-size: 1.5rem;
-  padding: 2px 5px;
-  /* margin-left: 10rem; */
-  /* border-left: 4px solid yellow;  */
+  /* padding: 2px 5px;  */
+  margin-left: 10%;
+  padding-bottom: 10px;
+  
 }
+@media screen and (max-width: 600px) 
+  {
+    .search-movie
+    {
+      margin-left: 15%;
+    }
+     
+  }
+
 .maindiv{
-  width: 66%;
+  width: 65%;
   height: 400px;
   position: relative; 
   left: 50%;
@@ -275,9 +286,15 @@ footer a:hover {
   30%{background-image: url('https://m.media-amazon.com/images/M/MV5BNWRlMWJlYWQtODM2Yy00ZGFkLTgyYmItZTI2MmYyNThhZjliXkEyXkFqcGdeQWFybm8@._V1_QL40_UX1000_CR0,52,1000,563_.jpg');}
   70%{background-image: url('https://m.media-amazon.com/images/M/MV5BOWFhYjQ4NDYtODlmMy00MTBhLTliZGMtNjZkNmNlMzgyNjBjXkEyXkFqcGdeQXVyOTYwMTkyNA@@._V1_QL40_UX352_CR0,1,352,521_.jpg');}
 }
-#movies-searchable{
-  /* display: flex;  */
-}
+@media screen and (max-width: 600px) 
+  {
+    .maindiv
+    {
+      width: 100%;
+    }
+     
+  }
+
 @media screen and (max-width: 600px) {
   #movies-searchable,#movies-container,.search-movie{
     /* float: left; */
@@ -314,12 +331,15 @@ footer a:hover {
   justify-content: center;
   align-items: center;
   margin: 10px;
-}
+} 
 
 .poster-card {
-  width: 160px;
+  width: 10rem;
   height: 460px;
   background: #1b1b1b;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
   margin: 10px 15px;
   border-radius: 4px;
 }
@@ -687,3 +707,88 @@ footer a:hover {
   background-size: cover;
 }
 /* Recently viewed end */
+
+/* IMDb Original start*/
+
+.sub-heading p.subtitle {
+  color: white;
+  font-size: 18px;
+  margin: 4px 0 8px;
+  font-weight: normal;
+}
+
+.video-card {
+  width: 345px;
+  height: 210px;
+  background: #000;
+  margin: 10px 15px;
+  cursor: pointer;
+}
+
+.video-card .video {
+  width: 100%;
+  height: 100%;
+}
+
+.video-card p {
+  color: #fff;
+  margin: 6px 0;
+}
+
+.video-card #vc1 {
+  background: url(https://m.media-amazon.com/images/M/MV5BNWUxNjMzMmYtZGI2ZS00OTRlLWE1ZmQtMDQ0MmI0NmMzMzVmXkEyXkFqcGdeQW1pYnJ5YW50._V1_UX500_CR0,0,500,281_.jpg%20500w,%20https://m.media-amazon.com/images/M/MV5BNWUxNjMzMmYtZGI2ZS00OTRlLWE1ZmQtMDQ0MmI0NmMzMzVmXkEyXkFqcGdeQW1pYnJ5YW50._V1_UX750_CR0,0,750,422_.jpg%20750w,%20https://m.media-amazon.com/images/M/MV5BNWUxNjMzMmYtZGI2ZS00OTRlLWE1ZmQtMDQ0MmI0NmMzMzVmXkEyXkFqcGdeQW1pYnJ5YW50._V1_UX1000_CR0,0,1000,563_.jpg%201000w);
+  background-position: center;
+  background-size: cover;
+}
+
+.video-card #vc2 {
+  background: url(https://m.media-amazon.com/images/M/MV5BZWJjYjdlZjEtNWEyMS00NzUwLWJiZDItZjFmZjhlYWZjZWY2XkEyXkFqcGdeQWxpenpp._V1_UX500_CR0,0,500,281_.jpg%20500w,%20https://m.media-amazon.com/images/M/MV5BZWJjYjdlZjEtNWEyMS00NzUwLWJiZDItZjFmZjhlYWZjZWY2XkEyXkFqcGdeQWxpenpp._V1_UX750_CR0,0,750,422_.jpg%20750w,%20https://m.media-amazon.com/images/M/MV5BZWJjYjdlZjEtNWEyMS00NzUwLWJiZDItZjFmZjhlYWZjZWY2XkEyXkFqcGdeQWxpenpp._V1_UX1000_CR0,0,1000,563_.jpg%201000w);
+  background-position: center;
+  background-size: cover;
+}
+
+.video-card #vc3 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMTYzZGFiMzQtMjlkYy00MmU4LTlmZjctZDVmOWRjYmExZGEwXkEyXkFqcGdeQWplZmZscA@@._V1_UX500_CR0,0,500,281_.jpg%20500w,%20https://m.media-amazon.com/images/M/MV5BMTYzZGFiMzQtMjlkYy00MmU4LTlmZjctZDVmOWRjYmExZGEwXkEyXkFqcGdeQWplZmZscA@@._V1_UX750_CR0,0,750,422_.jpg%20750w,%20https://m.media-amazon.com/images/M/MV5BMTYzZGFiMzQtMjlkYy00MmU4LTlmZjctZDVmOWRjYmExZGEwXkEyXkFqcGdeQWplZmZscA@@._V1_UX1000_CR0,0,1000,563_.jpg%201000w);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+/* IMDb original end */
+
+@media screen and (min-width: 600px) 
+  {
+    .get-imdb
+    {
+      display: none;
+    }
+     
+  }
+
+
+  .movie >h2{
+    margin-left: 10%;
+  }
+
+@media screen and (min-width: 1000px) 
+  {
+    .sub-heading ,.top-picks,.heading1
+    {
+      margin-left: 10%;
+    }
+     
+  }
+  @media screen and (min-width: 1000px) 
+  {
+    .flexbox-container
+    {
+      margin-left: -10%;
+    }
+     
+  }  
