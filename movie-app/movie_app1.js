@@ -27,7 +27,7 @@ function createImageContainer(imageUrl, id) {
 
 function handleGeneralError(error) {
      log('Error: ', error.message);
-     alert(error.message || 'Internal Server');
+    // alert(error.message || 'Internal Server');
 }
 
 function createIframe(video) {
@@ -63,7 +63,7 @@ function createVideoTemplate(data) {
         return;
     }
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 3; i++) {
         const video = videos[i];
         insertIframeIntoContent(video, content);
     }

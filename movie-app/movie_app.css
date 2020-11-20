@@ -306,6 +306,44 @@ footer a:hover {
 
   }
 }
+/* Explore movies & TV shows start */
+.poster-card #img11{
+  background: url(https://m.media-amazon.com/images/M/MV5BMTI5NmViY2YtNDk5NC00NjY2LWFlNGYtOGEwNzY1MTZmMjFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX140_CR0,7,140,207_.jpg); 
+  background-position: center;
+  background-size: cover;
+} 
+
+.poster-card #img21 {
+  background: url(https://m.media-amazon.com/images/M/MV5BMTI5NmViY2YtNDk5NC00NjY2LWFlNGYtOGEwNzY1MTZmMjFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX140_CR0,7,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster-card #img31 {
+  background: url(https://m.media-amazon.com/images/M/MV5BYmNjYzRlM2YtZTZjZC00ODVmLTljZWMtODg1YmYyNDBiNzU3XkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_UY207_CR8,0,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster-card #img41 {
+  background: url(https://m.media-amazon.com/images/M/MV5BY2VlOTc4ZjctYjVlMS00NDYwLWEwZjctZmYzZmVkNGU5NjNjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY207_CR5,0,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster-card #img51 {
+  background: url(https://m.media-amazon.com/images/M/MV5BZTEyMTlmYTUtMDE0My00NWJmLWJlZmEtNzhjNGI0Mzk0NTA4XkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_UY207_CR8,0,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.poster-card #img61 {
+  background: url(https://m.media-amazon.com/images/M/MV5BN2ZhMTI3MDctYTlhYy00NjBlLWEyOGEtYzE3MjM4MWFkNmQwXkEyXkFqcGdeQXVyNTA3NTQ4OTg@._V1_UY207_CR6,0,140,207_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Explore movies & TV shows end */
 
 
 
@@ -318,8 +356,7 @@ footer a:hover {
 
 .top-picks .heading {
   padding: 2px 5px;
-  /* margin-left: 10rem; */
-  /* border-left: 4px solid yellow; */
+  
 }
 
 .top-picks h2 {
@@ -337,9 +374,6 @@ footer a:hover {
   width: 10rem;
   height: 460px;
   background: #1b1b1b;
-  /* display: flex;
-  justify-content: center; */
-  /* align-items: center; */
   margin: 10px 15px;
   border-radius: 4px;
 }
@@ -349,11 +383,11 @@ footer a:hover {
   height: 237px;
 }
 
-.poster-card #img1 {
-  background: url(https://upload.wikimedia.org/wikipedia/en/3/3c/Poster_of_Mirzapur_2018.jpg); */
+ .poster-card #img1 {
+  background: url(https://upload.wikimedia.org/wikipedia/en/3/3c/Poster_of_Mirzapur_2018.jpg); 
   background-position: center;
   background-size: cover;
-}
+} 
 
 .poster-card #img2 {
   background: url(https://mamasgeeky.com/wp-content/uploads/2020/11/the-queens-gambit-poster.jpg);
@@ -461,7 +495,6 @@ footer a:hover {
 
 .watchlist span {
   color: #2a9df4;
-  /*padding: 6px 15px;*/
   font-size: 15px;
   font-weight: bold;
 }
@@ -470,8 +503,6 @@ footer a:hover {
   color: #2a9df4;
   width: 21px;
   height: 21px;
-/*  margin: 0 5px;*/
-  /*padding-top: 4px;*/
 }
 
 .watchlist:hover {
@@ -498,8 +529,6 @@ footer a:hover {
   color: gray;
   padding: 4px 10px;
   border-radius: 2px;
-/*  padding: 2px 6px;
-*/
 }
 
 .trailer span {
@@ -573,12 +602,7 @@ footer a:hover {
   background: #1167b1;
   margin: 0 auto;
 }
-/* .sub-heading .subtitle{
-  padding-left: 7rem;
-}
-.sub-heading h2{
-  padding-left: 7rem;
-} */
+
 .birthday-card p{
   color: white;
   text-align: center;
@@ -639,8 +663,7 @@ footer a:hover {
 }
 .top-picks .heading {
   padding: 2px 5px;
-  /* margin-left: 10rem; */
-  /* border-left: 4px solid yellow; */
+ 
 }
 
 .top-head h2 {
@@ -778,7 +801,7 @@ footer a:hover {
 
 @media screen and (min-width: 1000px) 
   {
-    .sub-heading ,.top-picks,.heading1
+    .sub-heading ,.top-picks,.heading1,.sign-title
     {
       margin-left: 10%;
     }
@@ -792,3 +815,86 @@ footer a:hover {
     }
      
   }  
+
+  /* ipc icon */
+  .ipc-icon {
+    height: 1em;
+    vertical-align: baseline;
+    width: 1em;
+  }
+  .plus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .plus1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+#plu{
+  color: gray;
+}
+.sign-into{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.btn6{
+  background-color: yellow;
+  height: 2.5rem;
+  width: 10rem;
+  /* font-size: 1.5rem; */
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px) 
+  {
+    .sign-title
+    {
+      margin-left: 17%;
+    }
+     
+  } 
+.btn7{
+  background-color: yellow;
+  height: 2.2rem;
+  width: 18rem;
+  color: white;
+  /* font-size: 1.5rem; */
+  border-radius: 5px;
+  border-color: white;
+  background-color: black;
+}
+@media screen and (min-width: 1000px) 
+  {
+    .more-to-watch,.btn7,.Exclusive,.Explore-movies
+    {
+      margin-left: 10%;
+    }
+     
+  } 
+#btn8{
+  margin-left: 1%;
+}
+@media screen and (max-width: 600px) 
+  {
+    .btn7,#btn8
+    {
+      width:13rem;
+    }
+     
+  } 
+.Exclusive,.Explore-movies{
+  color: yellow;
+}
+  
+@media screen and (max-width: 600px) 
+  {
+    .img2
+    {
+      display: none;
+    }
+     
+  } 
