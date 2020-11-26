@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <link rel="stylesheet" href="title.css">
+</head>
+<body>
+    <div class="heading">
+    <h2>KLOUDONE TECHNOLOGY</h2>
+    </div>
+    <div class="main">
+       <div class="first-box">
+           <div>
+               <input type="text" id="input-title" name="title" placeholder="Enter Article here">
+           </div>
+           <div>
+               <textarea name="" id="artical1" placeholder="enter artical" ></textarea>
+           </div>
+           <div id="dropdown">
+                <select name="" id="dropdown1" class="dropdown-control" required>
+                    <option disabled selected >chose one</option>
+                    <option value="artical">NEWS ARTICLE</option>
+                    <option value="funnews">FUN ARTICLE</option>
+                </select>
+                <input type="submit" id="button" name="submit" vlaue="POST">
+           </div>
+
+       </div> 
+       <div class="second-box">
+           <div class="heading2">
+                <h2>NEWs ARTICLE</h2>
+           </div>
+           <div id="news-article" class="article-container">
+            </div>
+       </div>
+       <div class="third-box">
+         <div class="counter-artical">
+            <p>Number of News Articles:<div id="newsnurber">0</div></p>
+            <p>Number of Fum Articles:<div id="funnumber">0</div></p>
+         </div>
+         <div class="news-box">
+                <div class="heading3">
+                    <h2>FUN ARTICLE</h2>
+                </div>
+                <div class="article-container" id="fun-article">
+                </div>
+
+         </div>
+       </div>
+
+    </div>
+
+    <script type="text/javascript" src="title.js"></script>   
+</body>
+</html>

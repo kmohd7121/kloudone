@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.heading{
+   
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    position: relative;
+    border: 2px solid black;
+}
+.heading h2{
+    text-align: center;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    flex-direction: row;
+    height: 100vh;
+    max-width: 100%;
+}
+.first-box{
+   position:relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 100vh;
+   padding: 40px 20px;
+   margin:20px 15px;
+   width: 360px;
+   height: 550px;
+   border: 2px solid black; 
+}
+#input-title,#artical1,#dropdown{
+    margin: 15px 20px;
+    padding: 12px 15px;
+}
+#input-title{
+  width: 250px;  
+}
+#artical1{
+    width: 250px;
+    height: 250px;
+}
+#button{
+    padding: 8px;
+   width: 90px;
+    background: green;
+    color: black;
+}
+#dropdown1{
+    padding: 8px 8px;
+    padding-left: 20px;
+}
+.second-box{
+  
+   max-width: 100vh;
+   padding: 40px 20px;
+   margin:20px 15px;
+   width: 360px;
+   height: 550px;
+   border: 2px solid black;
+   position:relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+
+}
+.heading2 h2{
+    margin-bottom: 20%;
+    padding-left: 18px;
+}
+.heading3 h2{
+    margin-top: -5%;
+    
+    margin-right: -20%;
+    margin-bottom: 40%;
+}
+.counter-artical{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: white;
+    border: 2px solid;
+    width: 360px;
+   margin-top:5% ;
+   margin-left: 4.5%;
+}
+.news-box{
+    max-width: 100vh;
+    padding: 40px 20px;
+    margin:20px 15px;
+    width: 360px;
+    height: 550px;
+    border: 2px solid black;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.article-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 300px;
+    padding: 6px 12px;
+    margin: 4px 6px;
+    border: 2px solid;
+  }
+  
+  
+  
+  .article-img img {
+    width: 60px;
+    height: 60px;
+    border: 2px;
+    border: 2px solid;
+  }
+  
